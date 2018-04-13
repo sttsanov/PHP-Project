@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <h2>{{ article.title }}
+                            <div class="pull-right">
+                                <a class="btn btn-default btn-xs" href="{{ path('article_delete', {'id': article.id}) }}">Delete &raquo;</a>
+                            </div>
+                            <div class="pull-right col-lg-1">
+                                <a class="btn btn-default btn-xs" href="{{ path('article_edit', {'id': article.id}) }}">Edit &raquo;</a>
+                            </div>
+                        </h2>
+                    </header>
+
+                    <p>
+                        {{ article.content }}
+                    </p>
+
+                    <small>
+                        Date and Time Of Event: {{ article.dateOfEvent }}
+                    </small>
+                    <br />
+                    <small>
+                        Venue: {{ article.venue }}
+                    </small>
+                    <br/>
+                    <small>
+                        Ticket Price: {{ article.ticketPrice }} leva
+                    </small>
+                    <small class="pull-right">
+                        Genre: {{ article.genre }}
+                    </small>
+                    <footer>
+
+                        <small class="author" >
+                            {{ article.author }} - <a  class="btn btn-default btn-xs"
+                            href={{ path("user_profile", {'id': article.authorId})}}>View Profile</a>
+                        </small>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-xs" href="{{ path('blog_index') }}">Back &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+

@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'profile' %}
+
+{% block main %}
+    <div class="container body-content">
+    <div>
+        E-mail: {{ user.email }}
+        <br>
+        Username: {{ user.fullName }}
+    </div>
+    <br>
+    <div class="row">
+        {% for article in user.articles %}
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <h2>{{ article.title }}</h2>
+                    </header>
+
+                    <p>
+                        {{ article.summary }}
+                    </p>
+
+                    <small>
+                        Date and Time Of Event:  {{ article.dateOfEvent }}
+                    </small>
+                    <br/>
+                    <small>
+                        Venue: {{ article.venue }}
+                    </small>
+                    <br/>
+                    <small>
+                        Ticket Price: {{ article.ticketPrice }} leva
+                    </small>
+                    <small class="pull-right">
+                        Genre: {{ article.genre }}
+                    </small>
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-xs"
+                               href="{{ path('article_view', {'id': article.id}) }}">Read more &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+    </div>
+{% endblock %}

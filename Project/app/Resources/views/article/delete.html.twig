@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal" action="{{ path('article_delete', {'id':article.id}) }}" method="POST">
+                <fieldset>
+                    <legend>Do you want to delete this item?</legend>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="article_title">Post Title</label>
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="article_title" value={{ article.title }}
+                                   name="article[title]">
+                            {{ form_errors(form.title) }}
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="article_content">Content</label>
+                        <div class="col-sm-6">
+                        <textarea class="form-control" rows="6" id="article_content"
+                                  name="article[content]">{{ article.content }}</textarea>
+                            {{ form_errors(form.content) }}
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="article_genre">Genre</label>
+                        <div class="col-sm-6">
+                            <select class="form-control"  id="article_genre"
+                                    name="article[genre]">
+                                <option>{{ article.genre }}</option>
+                                <option>Pop</option>
+                                <option>Rock</option>
+                                <option>Metal</option>
+                                <option>Classical</option>
+                                <option>Dance</option>
+                                <option>Dubstep</option>
+                                <option>House</option>
+                                <option>Punk</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="article_dateOfEvent">Date Of Event</label>
+                            <div class="col-sm-4 ">
+                                <input type="text" class="form-control" id="article_dateOfEvent" value="{{ article.dateOfEvent }}"
+                                name="article[dateOfEvent]">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="article_dateOfEvent">Venue</label>
+                            <div class="col-sm-4 ">
+                                <input type="text" class="form-control" id="article_venue" value="{{ article.venue }}"
+                                       name="article[venue]">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="article_dateOfEvent">Ticket Price</label>
+                            <div class="col-sm-4 ">
+                                <input type="text" class="form-control" id="article_ticketPrice" value="{{ article.ticketPrice }}"
+                                       name="article[ticketPrice]">
+                            </div>
+                        </div>
+                        {{ form_row(form._token) }}
+
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a class="btn btn-default" href="{{ path('blog_index') }}">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Delete</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,102 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div class="container body-content">
+        <div class="row">
+            <div>
+                <h4>Select Genre:</h4>
+                <form action="" method="get">
+                    <select name="article_genre_picked" id="article[genre]">
+                        <option value="All" selected>All</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Metal">Metal</option>
+                        <option value="Classical">Classical</option>
+                        <option value="Dance">Dance</option>
+                        <option value="Dubstep">Dubstep</option>
+                        <option value="House">House</option>
+                        <option value="Punk">Punk</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <input class="btn btn-default btn-xs" type="submit" name="submit" href="blog_index">
+                </form>
+            </div>
+            {% for article in articles %}
+                {% if article.genre == app.request.get('article_genre_picked') %}
+                        <div class="col-md-12">
+                            <article>
+                                <header>
+                                    <h2>{{ article.title }}</h2>
+                                </header>
+                                <p>
+                                    {{ article.summary }}
+                                </p>
+
+                                <small>
+                                    Date and Time Of Event: {{ article.dateOfEvent }}
+                                </small>
+                                <br />
+                                <small>
+                                    Venue: {{ article.venue }}
+                                </small>
+                                <br/>
+                                <small>
+                                    Ticket Price: {{ article.ticketPrice }} leva
+                                </small>
+                                <small class="pull-right">
+                                    Genre: {{ article.genre }}
+                                </small>
+                                <footer>
+                                    <small class="author" >
+                                        {{ article.author }} - <a  class="btn btn-default btn-xs"
+                                                                   href={{ path("user_author", {'id': article.authorId})}}>View Profile</a>
+                                    </small>
+                                    <div class="pull-right">
+                                        <a class="btn btn-default btn-xs"
+                                           href="{{ path('article_view', {'id': article.id}) }}">Read more &raquo;</a>
+                                    </div>
+                                </footer>
+                            </article>
+                        </div>
+                {% elseif app.request.get('article_genre_picked') == 'All' %}
+                    <div class="col-md-12">
+                        <article>
+                            <header>
+                                <h2>{{ article.title }}</h2>
+                            </header>
+                            <p>
+                                {{ article.summary }}
+                            </p>
+
+                            <small>
+                                Date and Time Of Event: {{ article.dateOfEvent }}
+                            </small>
+                            <br />
+                            <small>
+                                Venue: {{ article.venue }}
+                            </small>
+                            <br/>
+                            <small>
+                                Ticket Price: {{ article.ticketPrice }} leva
+                            </small>
+                            <small class="pull-right">
+                                Genre: {{ article.genre }}
+                            </small>
+                            <footer>
+                                <small class="author" >
+                                    {{ article.author }} - <a  class="btn btn-default btn-xs"
+                                                               href={{ path("user_author", {'id': article.authorId})}}>View Profile</a>
+                                </small>
+                                <div class="pull-right">
+                                    <a class="btn btn-default btn-xs"
+                                       href="{{ path('article_view', {'id': article.id}) }}">Read more &raquo;</a>
+                                </div>
+                            </footer>
+                        </article>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

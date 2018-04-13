@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18ee3957-a7f1-4de5-9848-5d42905a3b90" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Project/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/app/Resources/views/blog/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-867" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Project/app/Resources/views/article/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Project/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Project/app/Resources/views/base.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/Project/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/Project/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/Project/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Project/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/Project/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Project/vendor/white-october/pagerfanta-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/composer" />
+      <path value="$PROJECT_DIR$/Project/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Project/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/Project/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/Project/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/Project/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Project/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/Project/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Project/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Project/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/Project/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/Project/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Project/vendor/phpdocumentor/reflection-common" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PHP_Symfony_Twig_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_Symfony_Twig_Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP_Symfony_Twig_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_Symfony_Twig_Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP_Symfony_Twig_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_Symfony_Twig_Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP_Symfony_Twig_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_Symfony_Twig_Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP_Symfony_Twig_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_Symfony_Twig_Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Project" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ProjectBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Project/bin/console" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Project/bin/console" scriptParameters="server:run" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18ee3957-a7f1-4de5-9848-5d42905a3b90" name="Default" comment="" />
+      <created>1523649743206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523649743206</updated>
+      <workItem from="1523649750319" duration="699000" />
+      <workItem from="1523650502844" duration="147000" />
+      <workItem from="1523650691480" duration="901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1747000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1346" height="698" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962406" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32933104" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32933104" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Project/app/Resources/views/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/app/Resources/views/article/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
